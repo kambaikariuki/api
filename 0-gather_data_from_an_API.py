@@ -20,8 +20,6 @@ def get_info(id):
    
    print(f"Employee {user_details["name"]} is done with tasks({len(completed_todos)}/{len(todos_list)}):")
    for title in completed_todos:
-      print(f"  {title}")
-   
+      print(f"  {title}")   
 #    Employee EMPLOYEE_NAME is done with tasks(NUMBER_OF_DONE_TASKS/TOTAL_NUMBER_OF_TASKS):
-   
-get_info(id)
+   get_info(id)
